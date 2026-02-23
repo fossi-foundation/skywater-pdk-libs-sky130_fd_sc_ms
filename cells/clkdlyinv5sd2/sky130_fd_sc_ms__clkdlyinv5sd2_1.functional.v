@@ -37,8 +37,8 @@ module sky130_fd_sc_ms__clkdlyinv5sd2_1 (
 );
 
     // Module ports
-    output Y;
-    input  A;
+    output wire Y;
+    input wire  A;
 
     // Local signals
     wire not0_out_Y;

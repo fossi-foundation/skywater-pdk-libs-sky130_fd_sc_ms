@@ -38,10 +38,10 @@ module sky130_fd_sc_ms__ha_1 (
 );
 
     // Module ports
-    output COUT;
-    output SUM ;
-    input  A   ;
-    input  B   ;
+    output wire COUT;
+    output wire SUM ;
+    input wire  A   ;
+    input wire  B   ;
 
     // Local signals
     wire and0_out_COUT;

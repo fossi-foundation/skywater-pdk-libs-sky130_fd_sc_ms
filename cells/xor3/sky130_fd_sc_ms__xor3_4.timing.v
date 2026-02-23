@@ -40,10 +40,10 @@ module sky130_fd_sc_ms__xor3_4 (
 );
 
     // Module ports
-    output X;
-    input  A;
-    input  B;
-    input  C;
+    output wire X;
+    input wire  A;
+    input wire  B;
+    input wire  C;
 
     // Module supplies
     supply1 VPWR;
